@@ -66,12 +66,12 @@
 					$wrapper.id = 'bg';
 					$body.appendChild($wrapper);
 
-				for (k in settings.colors) {
+				for (k in settings.images) {
 
 					// Create BG.
 						$bg = document.createElement('div');
 							// $bg.style.backgroundImage = 'url("' + k + '")';
-							// $bg.style.backgroundPosition = settings.images[k];
+							$bg.style.backgroundPosition = settings.images[k];
 							$bg.css('background-color', k);
 							$wrapper.appendChild($bg);
 

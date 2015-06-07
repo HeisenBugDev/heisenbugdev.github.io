@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+@import url("http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700");
 
 /*
 	Eventually by HTML5 UP
@@ -292,7 +292,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Source Serif Pro", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		letter-spacing: -0.01em;

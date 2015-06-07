@@ -66,19 +66,19 @@
 					$wrapper.id = 'bg';
 					$body.appendChild($wrapper);
 
-				for (k in settings.images) {
-
-					// Create BG.
-						$bg = document.createElement('div');
-							// $bg.style.backgroundImage = 'url("' + k + '")';
-							$bg.style.backgroundPosition = settings.images[k];
-							$bg.css('background-color', k);
-							$wrapper.appendChild($bg);
-
-					// Add it to array.
-						$bgs.push($bg);
-
-				}
+				// for (k in settings.images) {
+				//
+				// 	// Create BG.
+				// 		$bg = document.createElement('div');
+				// 			// $bg.style.backgroundImage = 'url("' + k + '")';
+				// 			$bg.style.backgroundPosition = settings.images[k];
+				// 			$bg.css('background-color', k);
+				// 			$wrapper.appendChild($bg);
+				//
+				// 	// Add it to array.
+				// 		$bgs.push($bg);
+				//
+				// }
 
 			// Main loop.
 				$bgs[pos].classList.add('visible');

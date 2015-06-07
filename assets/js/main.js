@@ -72,7 +72,7 @@
 						$bg = document.createElement('div');
 							// $bg.style.backgroundImage = 'url("' + k + '")';
 							// $bg.style.backgroundPosition = settings.images[k];
-							$bg.style.Background = k;
+							$bg.css('background-color', k);
 							$wrapper.appendChild($bg);
 
 					// Add it to array.

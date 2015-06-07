@@ -44,6 +44,13 @@
 							'images/bg03.jpg': 'center'
 						},
 
+						colors: {
+							'blue': '#068894',
+							'green': '#00ac65',
+							'orange': '#e9662c',
+							'yellow': '#ebaf3c'
+						},
+
 					// Delay.
 						delay: 6000
 
@@ -59,12 +66,13 @@
 					$wrapper.id = 'bg';
 					$body.appendChild($wrapper);
 
-				for (k in settings.images) {
+				for (k in settings.colors) {
 
 					// Create BG.
 						$bg = document.createElement('div');
-							$bg.style.backgroundImage = 'url("' + k + '")';
-							$bg.style.backgroundPosition = settings.images[k];
+							// $bg.style.backgroundImage = 'url("' + k + '")';
+							// $bg.style.backgroundPosition = settings.images[k];
+							$bg.style.Background = k;
 							$wrapper.appendChild($bg);
 
 					// Add it to array.
